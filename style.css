@@ -14,12 +14,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow:  5px 13px -2px rgba(0,0,0,1)
+    box-shadow: 0px 20px 14px -15px rgba(0,0,0,0.70);
     
 }
 .signin_form{
     float: right;
     margin-right: 10px;
+    margin-bottom: 50px;
+    
 }
 
 .signup_form{
@@ -34,12 +36,20 @@ p {
 input{
     border-radius: 6px;
     direction: rtl;
+    margin: 5px;
+    padding: 3px;
 }
 
 .login{
     background-color: rgb(81, 204, 81);
+    width: 70px;
+    margin: 6px 50px;
+    cursor: pointer;                   
 }
 
 .registration{
-    background-color: rgb(239, 108, 108)
+    background-color: rgb(239, 108, 108);
+    width: 70px;
+    margin: 6px 50px;
+    cursor: pointer;
 }
