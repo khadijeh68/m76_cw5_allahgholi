@@ -1,0 +1,20 @@
+.wrapper{
+    width: 800px;
+    height: 400px;
+    background-color:aquamarine;
+    background: linear-gradient(to right, #ddd6f3, #faaca8); 
+    position:relative;
+    
+
+}
+.form_container{
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+   
