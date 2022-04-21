@@ -5,23 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="form_container">
             <div class="signin_form">
-                
+                <p>نام کاربری</p>
                 <form>
-                  
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" placeholder="ایمیل"/>
+                    <br />
+                    <br />
+                    <label for="password"></label>
+                    <input type="password" id="password" placeholder="کلمه عبور"/>
+                    <br />
+                    <br />
+                    <input class="login" type="submit" value="ورود"/>
                 </form>
             </div>
             <div class="signup_form">
-
+                <p>ثبت نام کاربر</p>
+                <form>
+                    <input type="text" name="name" placeholder="نام"/><br><br>
+                    <label for="email" ></label>
+                    <input  type="email" id="email" name="email" placeholder="ایمیل"/>
+                    <br />
+                    <br />
+                    <label for="password"></label>
+                    <input  type="password" id="password" placeholder="کلمه عبور"/>
+                    <br />
+                    <br />
+                    <input class="registration" type="submit" value="ثبت نام"/>
+                </form>
             </div>
-
         </div>
-
     </div>
+    <!-- <i class="material-icons">card_giftcard</i>
+    <i class="material-icons">fingerprint</i>
+    <i class="material-icons">place</i> -->
 </body>
 </html>
